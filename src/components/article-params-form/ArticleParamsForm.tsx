@@ -121,7 +121,7 @@ export const ArticleParamsForm = ({
 						onChange={setSelectedContentWidth}
 					/>
 					<div className={styles.bottomContainer}>
-						<Button title='Сброс' type='reset' onClick={handleReset} />
+						<Button title='Сбросить' type='reset' onClick={handleReset} />
 						<Button title='Применить' type='submit' />
 					</div>
 				</form>
